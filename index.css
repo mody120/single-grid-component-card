@@ -1,0 +1,98 @@
+html{
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+}
+
+body{
+    background-color: hsl(204, 43%, 93%);
+}
+
+.main-content{
+    width: 40%;
+    margin: 10% auto;
+}
+
+.join-community{
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px 5px 0 0;
+}
+
+#headding{
+    margin:0;
+    color:hsl(179, 62%, 43%);
+}
+
+.join-community h3{
+    color: hsl(71, 73%, 54%);
+}
+
+.join-community > p{
+    color: hsl(218, 22%, 67%);
+    line-height:  8px;
+}
+
+.bottom{
+    display: flex;
+}
+
+.monthly-subscription, .why-us{
+    display: inline-block;
+    width:50%;
+    padding: 20px;
+}
+
+.monthly-subscription{
+    background-color:  hsl(179, 62%, 43%);
+    color: white;
+    border-radius: 0 0 0 5px;
+}
+
+span{
+    font-size: 2rem;
+    font-weight:700;
+}
+
+#para1{
+    color: hsl(180, 29%, 97%);
+    display: inline;
+    font-size: 1rem;
+    opacity: .4;
+}
+
+#para2{
+    opacity: .8;
+}
+
+button{
+    width: 100%;
+    height: 50px;
+    color:rgba(255, 255, 255, 0.908);
+    background-color: rgb(186, 232, 33);
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: .9rem;
+}
+
+button:hover{
+    background-color:  rgba(201, 239, 76, 0.923);
+    cursor: pointer;
+}
+
+.why-us{
+    background-color: hsla(179, 62%, 43%, 0.778);
+    color: white;
+    border-radius: 0 0 5px 0;
+}
+
+.why-us > p{
+    line-height: 4px;
+    opacity: .6;
+}
+
+
+
+
+
+
